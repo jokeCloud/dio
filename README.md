@@ -1,5 +1,7 @@
 # Dio - Bootcamp
 
+[Markdown References](https://www.markdownguide.org/basic-syntax/)
+
 ### Spread
 
 ##### Abertura
