@@ -12,4 +12,9 @@
 - Desafio
 
 ##### HTML/CSS
+- primeiros passos
+- introdução HTML5/CSS3
+- Flexbox CSS
+- Instagram clone
 
+##### Javascript
