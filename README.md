@@ -4,17 +4,17 @@
 
 ### Spread Bootcamp
 
-##### Abertura
+#### Abertura
 - Boas-vindas
 - Mentoria
 - Lógica de programação
 - Introdução ao Git e Github
 - Desafio
 
-##### HTML/CSS
+#### HTML/CSS
 - primeiros passos
 - introdução HTML5/CSS3
 - Flexbox CSS
 - Instagram clone
 
-##### Javascript
+#### Javascript
