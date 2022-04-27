@@ -1,15 +1,91 @@
-* {margin: 0;}
+* {background-color: #f0f0f0;}
 
 body {
-  font-family: Consolas, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Consolas, Verdana;
   font-size: 14px;
   line-height: 20px;
-  color: #333333;
-  background-color: #f0f0f0;
+  max-width: 980px;
+  color: #333;
+  margin: auto;
 }
 
-li, a{
-  color: #000;
-  list-style: none;
+a {
+  color: #333;
   font-size: 17px;
+  text-decoration: line-through;
 }
+/*
+.logo {
+  border: 1px solid #333;
+  border-radius: 50%;
+}
+*/
+#title, .subtitle, .post-title {
+  color: #333;
+}
+
+#title {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.post-title {
+  font-size: 18px;
+  margin: 0;
+  padding-top: 1px;
+  margin-bottom: 15px;
+}
+
+.post {
+  background-color: #fff;
+  padding: 15px;
+  border: 2px solid #333;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.post-content {
+  margin: 0;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+  text-align: justify;
+}
+
+.post-img {
+  margin-bottom: 15px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.contacts-list{
+  list-style-type: none;
+  padding-left: 15px;
+}
+
+.contacts-list li a {
+  text-decoration: none;
+}
+
+/*
+A sintaxe é bem simples e pode ser explicada com a frase "você cria regras de estilo para elementos ou grupos de elementos".
+
+Pseudo-classe. Elementos HTML sofrem alterações causadas pela interação do usuário, como mover o mouse por cima ou clicar nesse elemento.
+  O a:hover do exemplo significa que a âncora também terá essa aparência quando o usuário passar o mouse por cima de um hyperlink.
+
+<h1 id="">           #id{}
+<section class="">   .class{}
+
+box-model
+  margin
+    border
+      padding
+        content
+
+border-radius - px e %
+
+web-safe-fonts
+
+dimensao e alinhamentos
+  width-height
+
+*/
