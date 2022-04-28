@@ -1,0 +1,56 @@
+* {font-family: consolas; color:#1c2330}
+
+body {
+  background-color: #f2f5f0;
+}
+
+.m-h {
+  min-height: 192px;
+}
+
+.container {
+  background-color:  #d63c31;
+  margin: 0;
+  border: 2px solid #1c2330;
+  display: flex;
+}
+
+.item {
+  background-color: #31d67e;
+  margin: 4px;
+  padding: 4px;
+  text-align: center;
+}
+
+.flex-start{
+  justify-content: flex-start;
+}
+
+.flex-end{
+  justify-content: flex-end;
+}
+
+.flex-center{
+  justify-content: center;
+}
+
+.space-between{
+  justify-content: space-between;
+}
+
+.space-around{
+  justify-content: space-around;
+}
+
+.column {
+  flex-direction: column;
+}
+
+/*
+  flex-start
+  flex-end
+  center
+
+  space-between
+  space-around
+*/
