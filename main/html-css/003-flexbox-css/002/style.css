@@ -1,0 +1,61 @@
+* {font-family: consolas; color:#1c2330}
+
+body {
+  background-color: #f2f5f0;
+}
+
+.flex-container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  max-width: 758px;
+  border: 2px solid #1c2330;
+  background-color: #394b6b;
+  margin-bottom: 4px;
+  /*float: left;*/
+}
+
+.flex-item {
+  background-color: #7b90b8;
+  border: 1px solid #1c2330;
+  margin: 8px;
+  list-style: none;
+  height: 32px;
+  width: 32px;
+  line-height: 32px;
+  font-size: 20px;
+  text-align: center;
+}
+
+/*orientação row para o flexbox vem como padrão*/
+.row {
+  flex-direction: row;
+  /*float: left;*/
+}
+
+.row-reverse {
+  flex-direction: row-reverse;
+  /*float: right;*/
+}
+
+.row-reverse li{
+  background-color: #d63c31;
+}
+
+.column {
+  flex-direction: column;
+  float: left; /*retire essa propriedade para ver o comportamento*/
+}
+
+.column li{
+  background-color: #31d67e;
+}
+
+.column-reverse {
+  flex-direction: column-reverse;
+  float: right;
+}
+
+.column-reverse li{
+  background-color: #d6c831;
+}
