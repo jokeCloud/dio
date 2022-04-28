@@ -1,0 +1,71 @@
+* {font-family: consolas; color: #f2f5f0}
+
+body {
+  background-color: #f2f5f0;
+}
+
+h1 {
+  color: #1c2330;
+  text-align: center;
+}
+
+.container {
+  max-width: 512px;
+  border: 2px solid #1c2330;
+  display: flex;
+  background-color: #58ac85;/*#6083ce*/
+  margin: auto;
+}
+
+.item {
+  margin: 5px;
+  text-align: center;
+  font-size: 20px;
+  text-align: center;
+  background-color: #46886a; /*#4968ac*/
+  border: 1px solid #1c2330;
+  flex: 1;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.center {
+  align-items: center;
+}
+
+.stretch {
+  align-items: stretch;
+}
+
+.flex-start {
+  align-items: flex-start;
+}
+
+.flex-end {
+  align-items: flex-end;
+}
+
+.baseline {
+  align-items: baseline;
+}
+
+.central {
+  height: 400px;
+  justify-content: center;
+}
+
+.central .item {
+  flex: 0;
+  padding: 20px;
+}
+
+/*
+align-items
+  center
+  stretch
+  flex-start
+  flex-end
+  baseline - mantém a linha de base, mesmo se houver quebras de linhas(<br>)
+*/
