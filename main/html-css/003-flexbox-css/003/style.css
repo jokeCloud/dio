@@ -1,0 +1,51 @@
+* {font-family: consolas; color:#1c2330}
+
+body {
+  background-color: #f2f5f0;
+}
+
+.flex-container {
+  display: flex;
+  height: 120px;
+  border: 2px solid #1c2330;
+  max-width: 312px;
+  /*flex-direction: column;*/
+}
+
+.flex-item {
+  font-size: 24px;
+  height: 50%;
+  text-align: center;
+  min-width: 104px;
+  line-height: 56px;
+}
+
+.nowrap {
+  flex-wrap: nowrap;
+}
+
+.flexwrap {
+  flex-wrap: wrap;
+}
+
+.wrapreverse {
+  flex-wrap: wrap-reverse;
+}
+
+.red {
+  background-color: #d63c31;
+}
+
+.green {
+  background-color: #31d67e;
+}
+
+.blue {
+  background-color: #7b90b8;
+}
+
+.gold {
+  background-color: #d6c831;
+}
+
+
