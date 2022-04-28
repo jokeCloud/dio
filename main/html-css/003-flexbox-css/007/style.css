@@ -1,0 +1,66 @@
+* {font-family: consolas; color:#1c2330}
+
+body {
+  background-color: #f2f5f0;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  height: 512px;
+  width: 394px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid #1c2330;
+}
+
+.item {
+  background-color: #d63c31;
+  margin: 10px;
+  padding: 0 5px;
+  flex: 1;
+  text-align: center;
+  color: #f2f5f0;
+}
+
+.strech {
+  align-content: stretch;
+}
+
+.center {
+  align-content: center;
+}
+
+.start {
+  align-content: flex-start;
+}
+
+.end {
+  align-content: flex-end;
+}
+
+.between {
+  align-content: space-between;
+}
+
+.around {
+  align-content: space-around;
+}
+
+.column {
+  flex-direction: column;
+}
+
+/*
+justify-content
+  center
+  stretch
+  flex-start
+  flex-end
+align-items
+  space-between
+  space-around
+*/
