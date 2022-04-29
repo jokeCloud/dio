@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>flex items</title>
+</head>
+<body>
+  <h1>flex grow 0</h1>
+  <div class="container">
+    <div class="item fg-0">a</div>
+    <div class="item fg-0">b</div>
+    <div class="item fg-0">c</div>
+  </div> 
+  <h1>flex grow 0-1-2-3</h1>
+  <div class="container">
+    <div class="item fg-0">a</div>
+    <div class="item fg-1">b</div>
+    <div class="item fg-2">c</div>
+    <div class="item fg-3">c</div>
+  </div> 
+  <h1>flex basis auto</h1>
+  <div class="container">
+    <div class="item fg-1 b-auto">a</div>
+    <div class="item fg-1 b-auto">bcd</div>
+    <div class="item fg-1 b-auto">e</div>
+    <div class="item fg-2 b-auto">fgh</div>
+  </div> 
+  <h1>flex basis 0</h1>
+  <div class="container">
+    <div class="item fg-1 b-0">a</div>
+    <div class="item fg-1 b-0">bcd</div>
+    <div class="item fg-1 b-0">e</div>
+    <div class="item fg-2 b-0">fgh</div>
+  </div> 
+  <h1>flex basis + width</h1>
+  <div class="container">
+    <div class="item fg-0 w60">a</div>
+    <div class="item fg-0 w60">bcd</div>
+    <div class="item fg-0 w60">e</div>
+    <div class="item fg-0 w60">fgh</div>
+  </div> 
+  <h1>flex shrink 1</h1>
+  <div class="container">
+    <div class="item s-1 fg-1">a</div>
+    <div class="item s-1 fg-1">bcd</div>
+    <div class="item s-1 fg-1">e</div>
+    <div class="item s-1 fg-1">fgh</div>
+    <div class="item s-1 fg-1">ij</div>
+    <div class="item s-1 fg-1">klm</div>
+  </div> 
+  <div class="container">
+    <div class="item s-1 fg-1">a</div>
+    <div class="item s-1 fg-1">The generate Lorem Ipsum</div>
+    <div class="item s-1 fg-1">b</div>
+  </div> 
+  <h1>flex shrink 0 - basis 60px</h1>
+  <div class="container">
+    <div class="item s-0 fg-1 w60">a</div>
+    <div class="item s-0 fg-1 w60">The generate Lorem Ipsum</div>
+    <div class="item s-0 fg-1 w60">b</div>
+  </div> 
+</body>
+<script src="script.js"></script>
+</html>
