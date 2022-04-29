@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>flex</title>
+</head>
+<body>
+  <h1>flex 1</h1>
+  <div class="container">
+    <div class="item f-1">a</div>
+    <div class="item f-1">b</div>
+    <div class="item f-1">c</div>
+    <div class="item f-1">d</div>
+  </div>
+  <h1>flex 2</h1>
+  <div class="container">
+    <div class="item f-2">a</div>
+    <div class="item f-2">b</div>
+    <div class="item f-2">c</div>
+    <div class="item f-2">d</div>
+  </div>
+  <h1>flex mixado(1 e 2)</h1>
+  <div class="container">
+    <div class="item f-2">a</div>
+    <div class="item f-1">b</div>
+    <div class="item f-1">c</div>
+    <div class="item f-2">d</div>
+  </div>
+  <h1>order</h1>
+  <div class="container">
+    <div class="item">1</div>
+    <div class="item order2">2</div>
+    <div class="item">3</div>
+    <div class="item order1">4</div>
+    <div class="item">5</div>
+    <div class="item">6</div>
+    <div class="item order3">7</div>
+    <div class="item">8</div>
+  </div>
+  <h1>row - align self - auto</h1>
+  <section class="container aling-items">
+    <div class="item auto">a</div>
+    <div class="item auto">Lorem Ipsum Generate Automatically</div>
+    <div class="item auto">c</div>
+    <div class="item auto">d</div>
+  </section>
+  <h1>row - align self: start-end-center-stretch-baseline</h1>
+  <section class="container">
+    <div class="item center">a</div>
+    <div class="item end">b</div>
+    <div class="item start">c</div>
+    <div class="item stretch">d</div>
+    <div class="item baseline">e</div>
+  </section>
+  <h1>column - align self - auto</h1>
+  <section class="container aling-items column">
+    <div class="item auto">a</div>
+    <div class="item auto">Lorem Ipsum Generate Automatically</div>
+    <div class="item auto">c</div>
+    <div class="item auto">d</div>
+  </section>
+  <h1>column - align self: start-end-center-stretch-baseline</h1>
+  <section class="container column">
+    <div class="item center">a</div>
+    <div class="item end">b</div>
+    <div class="item start">c</div>
+    <div class="item stretch">d</div>
+    <div class="item baseline">e</div>
+  </section>
+</body>
+<script src="script.js"></script>
+</html>
