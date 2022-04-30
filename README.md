@@ -12,9 +12,25 @@
 - Desafio
 
 #### HTML/CSS
-- primeiros passos
-- introdução HTML5/CSS3
+- Primeiros passos
+- Introdução HTML5/CSS3
 - Flexbox CSS
 - Instagram clone
 
 #### Javascript
+- Introdução JS
+- Sintaxe e operadores
+- Variáveis e tipos
+- Funções
+- Coleções
+- Map, Filter e Reduce
+- Debugger e Error Handling
+- JS Assíncrono
+- Orientação a objetos
+- Trabalhando com módulos em JS
+- Manipulando a D.O.M
+- Intro ao TypeScript - classes, tipos e interfaces
+- Desafios iniciais
+- Sistema de estacionamento com TypeScript
+
+#### ReactJS
