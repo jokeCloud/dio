@@ -10,7 +10,35 @@ function saldoFinal(precos, saldoDisponivel) {
   let totalCompra = precos.reduce((ac, i) => ac + i, 0)
   return `Saldo disponível: R$ ${saldoDisponivel.toFixed(2)}.
 Total das compras: R$ ${totalCompra.toFixed(2)}.
-Saldo atual: R$ ${(saldoDisponivel - totalCompra).toFixed(2)}`
+Novo saldo: R$ ${(saldoDisponivel - totalCompra).toFixed(2)}`
 }
 
 console.log(saldoFinal(precos, 100))
+
+
+const produtos = [
+  {
+    nome:  'chocolate',
+    preco: 5.00
+  },
+  {
+    nome:  'pasta de dente',
+    preco: 10.00
+  },
+  {
+    nome:  'desodorante',
+    preco: 15.00
+  }
+]
+
+const nota = 100
+
+function saldoFim(lista, pagamento) {
+  let totalProdutos = lista.reduce((ac, i) => ac + i.preco, 0)
+  return `Saldo disponível: R$ ${pagamento.toFixed(2)}.
+Total das compras: R$ ${totalProdutos.toFixed(2)}.
+Novo saldo: R$ ${(pagamento - totalProdutos).toFixed(2)}.`
+
+}
+
+console.log(saldoFim(produtos, nota))
