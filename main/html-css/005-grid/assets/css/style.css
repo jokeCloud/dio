@@ -1,0 +1,46 @@
+
+
+* {
+  color: #1d1d1d;
+  font-family: 'Consolas';
+}
+
+.container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 30% 30% 40%;
+  grid-template-rows: 50px 300px 200px;
+  gap: 5px 5px;
+  grid-template-areas: 
+  "b1 b1 b1"
+  "b2 b2 b3"
+  "b4 b5 b3"
+  "b4 b5 b3";
+}
+
+#box-1 {
+  grid-area: b1;
+  background-color: lightcoral;
+}
+
+#box-2 {
+  grid-area: b2;
+  background-color: lightblue;
+}
+
+#box-3 {
+  grid-area: b3;
+  background-color: lightpink;
+}
+
+#box-4 {
+  grid-area: b4;
+  background-color: lightgreen;
+}
+
+#box-5 {
+  grid-area: b5;
+  background-color: lightgreen;
+}
+
+
