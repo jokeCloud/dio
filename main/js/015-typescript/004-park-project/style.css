@@ -1,0 +1,60 @@
+* {font-family: consolas;}
+
+body {
+  background-color: rgb(236, 236, 236);
+}
+
+h1 {
+  text-align: center;
+}
+
+td {
+  padding-right: 20px;
+}
+
+.insert {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.insert input {
+  margin: 20px 10px;
+  height: 20px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.insert button {
+  margin-left: 20px;
+  height: 28px;
+  border-radius: 5px;
+  background-color: #45a049;
+}
+
+.insert button:hover {
+  height: 30px;
+  background-color: #4CAF50;
+}
+
+.delete {
+  background-color: #AC2F50;
+  border-radius: 5px;
+}
+
+.delete:hover {
+  background-color: #D23F6F;
+}
+
+
+.content {
+  width: 100%;
+  height: 100%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
